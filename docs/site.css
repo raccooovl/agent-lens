@@ -17,7 +17,7 @@ img { max-width: 100%; height: auto; display: block; }
 
 header.top { position: sticky; top: 0; z-index: 2; background: color-mix(in srgb, var(--bg) 88%, transparent); backdrop-filter: blur(8px); border-bottom: 1px solid var(--line); }
 header.top .wrap { display: flex; align-items: center; gap: 12px; height: 60px; }
-.brand { display: flex; align-items: center; gap: 10px; color: var(--text); text-decoration: none; font-weight: 700; font-size: 18px; }
+.brand { display: flex; align-items: center; gap: 10px; color: var(--text); text-decoration: none; font-weight: 700; font-size: 18px; white-space: nowrap; }
 .brand svg { width: 28px; height: 28px; }
 nav { margin-left: auto; display: flex; gap: 22px; font-size: 15px; font-weight: 500; }
 nav a { color: var(--muted); text-decoration: none; }
