@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Agent Lens privacy</title>
+  <meta name="description" content="Agent Lens sends no data to its developer or to any server. What it reads, downloads and stores.">
+  <link rel="icon" href="img/icon-128.png">
+  <link rel="stylesheet" href="site.css">
+</head>
+<body>
+  <header class="top">
+    <div class="wrap">
+      <a class="brand" href="./"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9.5" fill="none" stroke="#ff4655" stroke-width="2.4"/><path d="M12 6.8 17.2 12 12 17.2 6.8 12Z" fill="#ff4655"/></svg>Agent Lens</a>
+      <nav><a href="./#features">Features</a><a href="./#faq">FAQ</a><a href="privacy.html">Privacy</a></nav>
+    </div>
+  </header>
+
+  <main class="wrap prose">
+    <h1>Privacy</h1>
+    <p>Agent Lens sends no data to its developer or to any server. It has no analytics, tracking, advertising or remote code.</p>
+
+    <h2>What it reads</h2>
+    <p>On <code>https://www.twitch.tv/</code> pages, it reads which live VALORANT streams are shown (channel name and category) and, in the sidebar, which followed channels are playing VALORANT.</p>
+
+    <h2>What it downloads</h2>
+    <p>For those streams, it downloads the public preview picture Twitch publishes for every live stream, from Twitch's image server (<code>static-cdn.jtvnw.net/previews-ttv/</code>). These requests carry no cookies and no referrer. The picture is analysed on your computer to find the agent and round score, then discarded.</p>
+
+    <h2>What it stores</h2>
+    <p>In <code>chrome.storage.local</code>: your settings, the agents you picked and your directory filter. In <code>chrome.storage.session</code>, cleared when the browser closes: the agent and score found for each stream, with the time it was read. It never stores your browsing history, follows, chat, account details or the pictures themselves.</p>
+
+    <h2>Permissions</h2>
+    <p>Storage; access to Twitch's preview pictures; and a content script on <code>https://www.twitch.tv/*</code>. No extension file is exposed to web pages.</p>
+
+    <p>Uninstalling Agent Lens removes everything it stored.</p>
+
+    <h2>This website</h2>
+    <p>This page is hosted on GitHub Pages and loads nothing from other sites. GitHub may keep standard server logs; see GitHub's privacy statement.</p>
+  </main>
+
+  <footer>
+    <div class="wrap">
+      <p>Agent Lens was created under Riot Games' "Legal Jibber Jabber" policy using assets owned by Riot Games. Riot Games does not endorse or sponsor this project. Riot Games and all associated properties are trademarks or registered trademarks of Riot Games, Inc.</p>
+      <p>Not affiliated with Twitch. MIT licensed. <a href="./">Home</a> · <a href="https://github.com/raccooovl/agent-lens">Source</a> · <a href="https://github.com/raccooovl/agent-lens/issues">Support</a></p>
+    </div>
+  </footer>
+</body>
+</html>

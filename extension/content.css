@@ -1,0 +1,11 @@
+/* Agent Lens: positions its badges on Twitch and hides cards the filter leaves out. */
+[data-al-hidden="true"]{display:none!important}
+/* Filter on: a card shows only once it is known to match. */
+html[data-al-filtering] .tw-tower > :has(article):not([data-al-pass]){display:none!important}
+/* Loading paused while filtering: Twitch's "load more" area after the list is moved out of view. */
+html[data-al-noload] .tw-tower ~ .scrollable-trigger__wrapper > .scrollable-trigger__trigger-area{position:fixed!important; top:-100000px!important}
+[data-al-anchor]{position:relative!important}
+agent-lens{display:block}
+agent-lens[data-al-kind="card"]{position:absolute!important; bottom:8px; right:8px; z-index:4; pointer-events:none}
+agent-lens[data-al-kind="row"]{position:absolute!important; right:-5px; bottom:-4px; z-index:2; pointer-events:none}
+agent-lens[data-al-kind="bar"]{position:relative; width:100%}

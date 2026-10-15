@@ -1,0 +1,134 @@
+[
+ {
+  "file": "box00.jpg",
+  "map": "BIND",
+  "mode": "COMPETITIVE",
+  "stretch": 1
+ },
+ {
+  "file": "box01.jpg",
+  "map": "LOTUS",
+  "mode": "COMPETITIVE",
+  "stretch": 1
+ },
+ {
+  "file": "box02.jpg",
+  "map": "ABYSS",
+  "mode": "COMPETITIVE",
+  "stretch": 1.3333333333333333
+ },
+ {
+  "file": "box03.jpg",
+  "map": "BIND",
+  "mode": "COMPETITIVE",
+  "stretch": 1
+ },
+ {
+  "file": "box04.jpg",
+  "map": "CORRODE",
+  "mode": "COMPETITIVE",
+  "stretch": 1
+ },
+ {
+  "file": "box05.jpg",
+  "map": "ABYSS",
+  "mode": "COMPÉTITION",
+  "stretch": 1
+ },
+ {
+  "file": "box06.jpg",
+  "map": "SUNSET",
+  "mode": "COMPÉTITION",
+  "stretch": 1
+ },
+ {
+  "file": "box07.jpg",
+  "map": "BIND",
+  "mode": "COMPETITIVO",
+  "stretch": 1
+ },
+ {
+  "file": "box08.jpg",
+  "map": "FRACTURE",
+  "mode": "UNRATED",
+  "stretch": 1
+ },
+ {
+  "file": "box09.jpg",
+  "map": "ABYSS",
+  "mode": "COMPETITIVE",
+  "stretch": 1
+ },
+ {
+  "file": "box10.jpg",
+  "map": "CORRODE",
+  "mode": "SWIFTPLAY",
+  "stretch": 1
+ },
+ {
+  "file": "box11.jpg",
+  "map": "劫境之地",
+  "mode": "競技模式",
+  "stretch": 1
+ },
+ {
+  "file": "box12.jpg",
+  "map": "ABYSS",
+  "mode": "COMPETITIVE",
+  "stretch": 1
+ },
+ {
+  "file": "box13.jpg",
+  "map": "CORRODE",
+  "mode": "COMPETITIVE",
+  "stretch": 1
+ },
+ {
+  "file": "box14.jpg",
+  "map": "SUNSET",
+  "mode": "COMPETITIVE",
+  "stretch": 1
+ },
+ {
+  "file": "box15.jpg",
+  "map": "LOTUS",
+  "mode": "COMPETITIVE",
+  "stretch": 1
+ },
+ {
+  "file": "box16.jpg",
+  "map": "ICEBOX",
+  "mode": "SWIFTPLAY",
+  "stretch": 1
+ },
+ {
+  "file": "box17.jpg",
+  "map": "CORRODE",
+  "mode": "COMPETITIVO",
+  "stretch": 1
+ },
+ {
+  "file": "box18.jpg",
+  "map": "ABYSS",
+  "mode": "COMPETITIVE",
+  "stretch": 1
+ },
+ {
+  "file": "box19.jpg",
+  "map": "LOTUS",
+  "mode": "COMPETITIVE",
+  "stretch": 1
+ },
+ {
+  "file": "box20.jpg",
+  "map": "晶蝕之地",
+  "mode": "競技模式",
+  "stretch": 1
+ },
+ {
+  "file": "box21.jpg",
+  "map": "SUMMIT",
+  "mode": "COMPETITIVE",
+  "stretch": 1
+ }
+]

@@ -1,0 +1,33 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="fonts.css">
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  <header class="top">
+    <svg class="mark" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9.5" fill="none" stroke="#ff4655" stroke-width="2.4"/><path d="M12 6.8 17.2 12 12 17.2 6.8 12Z" fill="#ff4655"/></svg>
+    <h1>Agent Lens</h1>
+    <span class="version" id="version"></span>
+  </header>
+  <main>
+    <section class="tab" id="tab" aria-live="polite"></section>
+    <section>
+      <h2 data-i18n="popupMyAgents"></h2>
+      <p class="hint" data-i18n="popupMyAgentsHint"></p>
+      <div id="agents" class="agents"></div>
+    </section>
+    <section>
+      <h2 data-i18n="popupSettings"></h2>
+      <div class="settings" id="settings"></div>
+    </section>
+  </main>
+  <footer>
+    <p data-i18n="popupPrivacy"></p>
+    <p class="legal" data-i18n="riotNotice"></p>
+  </footer>
+  <script src="i18n.js"></script>
+  <script src="popup.js"></script>
+</body>
+</html>

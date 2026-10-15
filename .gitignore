@@ -1,0 +1,9 @@
+node_modules/
+*.zip
+*.log
+.DS_Store
+tests/shots/
+# Captured from live Twitch streams (real streamers' pictures, names and stream titles): kept locally, not published.
+tests/fixtures/previews/
+tests/fixtures/valorant-directory.html
+tests/fixtures/nav.html

@@ -1,0 +1,52 @@
+:root{color-scheme:dark; --page:#18181b; --raised:#1f1f23; --hover:#26262c; --button:#2f2f35; --line:#2f2f35; --text:#efeff1; --muted:#adadb8;
+  --accent:#9147ff; --accent-hover:#772ce8; --star:#ffd37a; --focus:#a970ff; --mark:#ff4655}
+@media (prefers-color-scheme: light){:root{color-scheme:light; --page:#ffffff; --raised:#f7f7f8; --hover:#efeff1; --button:#e9e9ec; --line:#e6e6ea; --text:#0e0e10; --muted:#53535f; --star:#c98a00; --focus:#772ce8}}
+*{box-sizing:border-box}
+html,body{margin:0; overflow-x:hidden}
+body{width:360px; background:var(--page); color:var(--text); font:13px/1.45 Inter,"Helvetica Neue",Helvetica,Arial,sans-serif; -webkit-font-smoothing:antialiased}
+button{font:inherit; color:inherit; cursor:pointer}
+:focus-visible{outline:2px solid var(--focus); outline-offset:2px}
+.top{display:flex; align-items:center; gap:10px; padding:14px 16px 12px; border-bottom:1px solid var(--line)}
+.mark{width:22px; height:22px}
+h1{margin:0; font-size:15px; font-weight:700; flex:1}
+.version{color:var(--muted); font-size:12px}
+main{padding:4px 16px 4px}
+section{padding:12px 0; border-bottom:1px solid var(--line)}
+section:last-child{border-bottom:0}
+h2{margin:0 0 4px; font-size:13px; font-weight:700}
+.hint{margin:0 0 10px; color:var(--muted); font-size:12.5px}
+.tab{display:flex; align-items:center; gap:12px; min-height:72px}
+.tab .face{width:44px; height:44px; border-radius:50%; flex:none; background:var(--button) center/cover no-repeat}
+.tab .face.empty{display:grid; place-items:center}
+.tab .face.empty svg{width:22px; height:22px; opacity:.8}
+.tab .text{flex:1; min-width:0}
+.tab .name{display:block; font-weight:700; font-size:14px; overflow:hidden; text-overflow:ellipsis; white-space:nowrap}
+.tab .line{display:block; color:var(--muted); font-size:12.5px}
+.tab .line strong{color:var(--text); font-weight:600}
+.tab .score{font-variant-numeric:tabular-nums}
+.tab .hot{color:var(--star)}
+.cta{display:inline-flex; align-items:center; height:30px; margin-top:8px; padding:0 12px; border:0; border-radius:4px; background:var(--accent); color:#fff; font-weight:600}
+.cta:hover{background:var(--accent-hover)}
+.agents{display:flex; flex-direction:column; gap:8px}
+.role{display:flex; align-items:center; gap:8px}
+.role-icon{width:16px; height:16px; flex:none; background:var(--muted); -webkit-mask:var(--icon) center/contain no-repeat; mask:var(--icon) center/contain no-repeat}
+.faces{display:flex; flex-wrap:wrap; gap:5px}
+.pick{position:relative; width:32px; height:32px; padding:0; border:0; border-radius:50%; background:var(--button) center/cover no-repeat; opacity:.55; filter:saturate(.4); transition:opacity .12s, filter .12s, box-shadow .12s}
+.pick:hover{opacity:.85; filter:none}
+.pick[aria-pressed="true"]{opacity:1; filter:none; box-shadow:0 0 0 2px var(--page), 0 0 0 4px var(--star)}
+.pick[aria-pressed="true"]::after{content:"★"; position:absolute; right:-4px; top:-6px; color:var(--star); font-size:12px; text-shadow:0 0 2px var(--page),0 0 2px var(--page)}
+.settings{display:flex; flex-direction:column}
+.switch,.option{display:flex; align-items:center; gap:12px; padding:7px 0; cursor:pointer}
+.switch span,.option span{flex:1}
+.switch small,.option small{display:block; color:var(--muted); font-size:12px}
+.switch input{appearance:none; width:34px; height:20px; margin:0; border-radius:10px; background:var(--button); position:relative; cursor:pointer; flex:none; transition:background .12s}
+.switch input::after{content:""; position:absolute; top:3px; left:3px; width:14px; height:14px; border-radius:50%; background:#fff; transition:transform .12s}
+.switch input:checked{background:var(--accent)}
+.switch input:checked::after{transform:translateX(14px)}
+footer{padding:10px 16px 14px; border-top:1px solid var(--line); color:var(--muted); font-size:11.5px}
+footer p{margin:0 0 6px}
+.legal{opacity:.8; font-size:10.5px; margin:0}
+
+.face.maybe{filter:saturate(.55) brightness(.9)}
+.line .sub{display:block; color:var(--muted, #adadb8); font-size:12px; margin-top:2px}
+.select{flex:none; height:30px; padding:0 8px; border:0; border-radius:4px; background:var(--button, #2f2f35); color:inherit; font:inherit; font-size:12.5px; cursor:pointer}

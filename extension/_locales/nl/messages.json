@@ -1,0 +1,272 @@
+{
+  "localeCode": {
+    "message": "nl"
+  },
+  "extName": {
+    "message": "Agent Lens: VALORANT-agents op Twitch"
+  },
+  "extDescription": {
+    "message": "Zie welke VALORANT-agent elke Twitch-streamer speelt en filter streams op agent of rol. Draait op je eigen computer."
+  },
+  "actionTitle": {
+    "message": "Agent Lens"
+  },
+  "roleAll": {
+    "message": "Alle"
+  },
+  "roleDuelist": {
+    "message": "Duelists"
+  },
+  "roleInitiator": {
+    "message": "Initiators"
+  },
+  "roleController": {
+    "message": "Controllers"
+  },
+  "roleSentinel": {
+    "message": "Sentinels"
+  },
+  "rolesLabel": {
+    "message": "Rollen"
+  },
+  "agentsLabel": {
+    "message": "Agents"
+  },
+  "myAgents": {
+    "message": "Mijn agents"
+  },
+  "clearFilter": {
+    "message": "Wissen"
+  },
+  "filterHint": {
+    "message": "Kies een agent of rol om alleen die streams te tonen."
+  },
+  "statusFound": {
+    "message": "{found} van {total} streams herkend"
+  },
+  "statusSkipped_one": {
+    "message": "{count} onder {min} kijkers overgeslagen"
+  },
+  "statusSkipped_other": {
+    "message": "{count} onder {min} kijkers overgeslagen"
+  },
+  "settingMinViewers": {
+    "message": "Streams lezen vanaf"
+  },
+  "settingMinViewersHint": {
+    "message": "Kleinere streams worden niet gedownload: minder data en werk bij grote overzichten."
+  },
+  "minViewersShort": {
+    "message": "Min. kijkers"
+  },
+  "minViewersAny": {
+    "message": "Alle"
+  },
+  "minViewersAll": {
+    "message": "Alle streams"
+  },
+  "minViewersCount": {
+    "message": "{count}+ kijkers"
+  },
+  "statusReading_one": {
+    "message": "nog {count} aan het lezen…"
+  },
+  "statusReading_other": {
+    "message": "nog {count} aan het lezen…"
+  },
+  "statusShowing_one": {
+    "message": "{count} stream getoond"
+  },
+  "statusShowing_other": {
+    "message": "{count} streams getoond"
+  },
+  "emptyFilter": {
+    "message": "Niemand op deze pagina speelt dat nu. Scrol omlaag voor meer streams, of wis het filter."
+  },
+  "loadPausedMin": {
+    "message": "de rest heeft minder dan {min} kijkers, niet geladen"
+  },
+  "loadPausedCap": {
+    "message": "laden gepauzeerd bij {count} streams"
+  },
+  "loadMore": {
+    "message": "Meer laden"
+  },
+  "loadMoreHint": {
+    "message": "Met een filter aan zou Twitch steeds streams blijven laden die dan verborgen worden, en dan wordt teruggaan naar deze pagina traag. Laadt er {count} meer."
+  },
+  "emptyFilterMin": {
+    "message": "Niemand met {min}+ kijkers speelt dat nu. Wis het filter of verlaag Min. kijkers."
+  },
+  "emptyFilterCap": {
+    "message": "Niemand in de geladen streams speelt dat nu. Laad meer, of wis het filter."
+  },
+  "myAgentsEmpty": {
+    "message": "Kies je agents via de Agent Lens-knop in de werkbalk."
+  },
+  "badgePlaying": {
+    "message": "{name} speelt {agent}"
+  },
+  "badgeEarlier_one": {
+    "message": "{name} speelde {count} minuut geleden {agent} (nu tussen rondes of in een menu)"
+  },
+  "badgeEarlier_other": {
+    "message": "{name} speelde {count} minuten geleden {agent} (nu tussen rondes of in een menu)"
+  },
+  "badgeSpectating": {
+    "message": "{name} speelt {agent}; nu dood en kijkt mee met een teamgenoot ({watching})"
+  },
+  "badgeSpectatingUnknown": {
+    "message": "{name} is nu dood en kijkt mee met een teamgenoot ({agent}). De eigen agent verschijnt bij een latere preview."
+  },
+  "spectating": {
+    "message": "Kijkt mee"
+  },
+  "badgeMaybe": {
+    "message": "{name} speelt waarschijnlijk {agent}. Gezien op een dood- of rondescherm, waar de balk ook van een teamgenoot kan zijn; een latere preview maakt het zeker."
+  },
+  "popupMaybe": {
+    "message": "waarschijnlijk {agent}"
+  },
+  "screenBroadcast": {
+    "message": "Profwedstrijd"
+  },
+  "sameMatchLabel": {
+    "message": "Zelfde wedstrijd"
+  },
+  "sameMatchWith": {
+    "message": "In dezelfde wedstrijd als {names}"
+  },
+  "relTeam": {
+    "message": "zelfde team"
+  },
+  "relOpponents": {
+    "message": "andere team"
+  },
+  "compTeam": {
+    "message": "Team: {agents}"
+  },
+  "compOpponents": {
+    "message": "Tegen: {agents}"
+  },
+  "sameMatchChip": {
+    "message": "Toon alleen deze streams"
+  },
+  "screenDeathmatch": {
+    "message": "Deathmatch"
+  },
+  "modeCompetitive": {
+    "message": "Competitief"
+  },
+  "modeUnrated": {
+    "message": "Zonder rang"
+  },
+  "modeSwiftplay": {
+    "message": "Swiftplay"
+  },
+  "modeDeathmatch": {
+    "message": "Deathmatch"
+  },
+  "mapModeLabel": {
+    "message": "Map en modus"
+  },
+  "screenSelect": {
+    "message": "Agentkeuze"
+  },
+  "screenMenu": {
+    "message": "In menu's"
+  },
+  "screenDead": {
+    "message": "Dood"
+  },
+  "screenRoundEnd": {
+    "message": "Ronde voorbij"
+  },
+  "screenBuy": {
+    "message": "Koopfase"
+  },
+  "badgeScreen": {
+    "message": "{name}: {screen}. Geen agent te zien in deze preview; Agent Lens kijkt over een minuut opnieuw."
+  },
+  "badgeScreenNow": {
+    "message": "Nu: {screen}"
+  },
+  "popupSpectating": {
+    "message": "dood, kijkt mee met een teamgenoot"
+  },
+  "badgeScore": {
+    "message": "Ronde {round}: {left}–{right}"
+  },
+  "badgeFavorite": {
+    "message": "Een van jouw agents"
+  },
+  "matchPoint": {
+    "message": "Matchpoint"
+  },
+  "overtime": {
+    "message": "Verlenging"
+  },
+  "reading": {
+    "message": "Stream lezen…"
+  },
+  "sidebarPlaying": {
+    "message": "Speelt {agent}"
+  },
+  "popupTabTitle": {
+    "message": "In dit tabblad"
+  },
+  "popupNotTwitch": {
+    "message": "Open de VALORANT-categorie of een VALORANT-stream op Twitch."
+  },
+  "popupOpenDirectory": {
+    "message": "VALORANT-streams bekijken"
+  },
+  "popupPageCount": {
+    "message": "{found} van {total} VALORANT-streams op deze pagina herkend"
+  },
+  "popupChannelNone": {
+    "message": "{name} zit nu niet in een potje."
+  },
+  "popupChannelReading": {
+    "message": "Stream van {name} lezen…"
+  },
+  "popupChannelOffline": {
+    "message": "{name} is offline."
+  },
+  "popupSeenAgo_one": {
+    "message": "{count} minuut geleden gezien"
+  },
+  "popupSeenAgo_other": {
+    "message": "{count} minuten geleden gezien"
+  },
+  "popupMyAgents": {
+    "message": "Mijn agents"
+  },
+  "popupMyAgentsHint": {
+    "message": "Kies de agents die jij speelt. Ze krijgen een ster op streamkaarten en een eigen filter."
+  },
+  "popupSettings": {
+    "message": "Weergave"
+  },
+  "settingBadges": {
+    "message": "Agent op streamkaarten"
+  },
+  "settingScores": {
+    "message": "Rondestand"
+  },
+  "settingSidebar": {
+    "message": "Agents in de zijbalk"
+  },
+  "settingQuality": {
+    "message": "Scherpere previews"
+  },
+  "settingQualityHint": {
+    "message": "Leest de stand vaker; downloadt ongeveer twee keer zoveel."
+  },
+  "popupPrivacy": {
+    "message": "Agent Lens bekijkt de openbare previews van VALORANT-streams die je ziet, op je eigen computer. Er wordt niets verstuurd en je keuzes blijven in deze browser."
+  },
+  "riotNotice": {
+    "message": "Agent Lens isn't endorsed by Riot Games and doesn't reflect the views or opinions of Riot Games or anyone officially involved in producing or managing Riot Games properties. Riot Games and all associated properties are trademarks or registered trademarks of Riot Games, Inc."
+  }
+}

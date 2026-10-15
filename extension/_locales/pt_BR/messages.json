@@ -1,0 +1,272 @@
+{
+  "localeCode": {
+    "message": "pt-BR"
+  },
+  "extName": {
+    "message": "Agent Lens: agentes de VALORANT na Twitch"
+  },
+  "extDescription": {
+    "message": "Veja qual agente de VALORANT cada streamer da Twitch está jogando e filtre por agente ou função. Roda no seu PC."
+  },
+  "actionTitle": {
+    "message": "Agent Lens"
+  },
+  "roleAll": {
+    "message": "Todos"
+  },
+  "roleDuelist": {
+    "message": "Duelistas"
+  },
+  "roleInitiator": {
+    "message": "Iniciadores"
+  },
+  "roleController": {
+    "message": "Controladores"
+  },
+  "roleSentinel": {
+    "message": "Sentinelas"
+  },
+  "rolesLabel": {
+    "message": "Funções"
+  },
+  "agentsLabel": {
+    "message": "Agentes"
+  },
+  "myAgents": {
+    "message": "Meus agentes"
+  },
+  "clearFilter": {
+    "message": "Limpar"
+  },
+  "filterHint": {
+    "message": "Escolha um agente ou função para ver só essas lives."
+  },
+  "statusFound": {
+    "message": "{found} de {total} lives identificadas"
+  },
+  "statusSkipped_one": {
+    "message": "{count} com menos de {min} espectadores ignorada"
+  },
+  "statusSkipped_other": {
+    "message": "{count} com menos de {min} espectadores ignoradas"
+  },
+  "settingMinViewers": {
+    "message": "Ler lives com pelo menos"
+  },
+  "settingMinViewersHint": {
+    "message": "Lives menores não são baixadas: menos dados e trabalho em diretórios grandes."
+  },
+  "minViewersShort": {
+    "message": "Mín. espectadores"
+  },
+  "minViewersAny": {
+    "message": "Todas"
+  },
+  "minViewersAll": {
+    "message": "Todas as lives"
+  },
+  "minViewersCount": {
+    "message": "{count}+ espectadores"
+  },
+  "statusReading_one": {
+    "message": "lendo mais {count}…"
+  },
+  "statusReading_other": {
+    "message": "lendo mais {count}…"
+  },
+  "statusShowing_one": {
+    "message": "Mostrando {count} live"
+  },
+  "statusShowing_other": {
+    "message": "Mostrando {count} lives"
+  },
+  "emptyFilter": {
+    "message": "Ninguém nesta página está jogando isso agora. Role para carregar mais lives ou limpe o filtro."
+  },
+  "loadPausedMin": {
+    "message": "o resto tem menos de {min} espectadores, não carregado"
+  },
+  "loadPausedCap": {
+    "message": "carregamento pausado em {count} lives"
+  },
+  "loadMore": {
+    "message": "Carregar mais"
+  },
+  "loadMoreHint": {
+    "message": "Com um filtro ativo, a Twitch continuaria carregando lives que depois ficam ocultas, e voltar para esta página fica lento. Carrega mais {count}."
+  },
+  "emptyFilterMin": {
+    "message": "Ninguém com {min}+ espectadores está jogando isso agora. Limpe o filtro ou diminua Mín. espectadores."
+  },
+  "emptyFilterCap": {
+    "message": "Ninguém nas lives carregadas está jogando isso agora. Carregue mais ou limpe o filtro."
+  },
+  "myAgentsEmpty": {
+    "message": "Escolha seus agentes no botão do Agent Lens na barra de ferramentas."
+  },
+  "badgePlaying": {
+    "message": "{name} está jogando de {agent}"
+  },
+  "badgeEarlier_one": {
+    "message": "{name} estava de {agent} há {count} minuto (agora entre rodadas ou num menu)"
+  },
+  "badgeEarlier_other": {
+    "message": "{name} estava de {agent} há {count} minutos (agora entre rodadas ou num menu)"
+  },
+  "badgeSpectating": {
+    "message": "{name} está de {agent}; morto agora e assistindo a um colega ({watching})"
+  },
+  "badgeSpectatingUnknown": {
+    "message": "{name} está morto agora e assistindo a um colega ({agent}). O próprio agente aparece numa prévia seguinte."
+  },
+  "spectating": {
+    "message": "Assistindo"
+  },
+  "badgeMaybe": {
+    "message": "{name} provavelmente está jogando de {agent}. Visto numa tela de morte ou de fim de rodada, onde a barra pode ser de um colega assistido; uma prévia seguinte confirma."
+  },
+  "popupMaybe": {
+    "message": "provavelmente {agent}"
+  },
+  "screenBroadcast": {
+    "message": "Partida profissional"
+  },
+  "sameMatchLabel": {
+    "message": "Mesma partida"
+  },
+  "sameMatchWith": {
+    "message": "Na mesma partida que {names}"
+  },
+  "relTeam": {
+    "message": "mesmo time"
+  },
+  "relOpponents": {
+    "message": "time adversário"
+  },
+  "compTeam": {
+    "message": "Time: {agents}"
+  },
+  "compOpponents": {
+    "message": "Contra: {agents}"
+  },
+  "sameMatchChip": {
+    "message": "Mostrar só estas lives"
+  },
+  "screenDeathmatch": {
+    "message": "Mata-mata"
+  },
+  "modeCompetitive": {
+    "message": "Competitivo"
+  },
+  "modeUnrated": {
+    "message": "Sem classificação"
+  },
+  "modeSwiftplay": {
+    "message": "Swiftplay"
+  },
+  "modeDeathmatch": {
+    "message": "Mata-mata"
+  },
+  "mapModeLabel": {
+    "message": "Mapa e modo"
+  },
+  "screenSelect": {
+    "message": "Seleção de agente"
+  },
+  "screenMenu": {
+    "message": "Nos menus"
+  },
+  "screenDead": {
+    "message": "Morto"
+  },
+  "screenRoundEnd": {
+    "message": "Rodada encerrada"
+  },
+  "screenBuy": {
+    "message": "Fase de compra"
+  },
+  "badgeScreen": {
+    "message": "{name}: {screen}. Nenhum agente visível nesta prévia; o Agent Lens olha de novo em um minuto."
+  },
+  "badgeScreenNow": {
+    "message": "Agora: {screen}"
+  },
+  "popupSpectating": {
+    "message": "morto, assistindo a um colega"
+  },
+  "badgeScore": {
+    "message": "Rodada {round}: {left}–{right}"
+  },
+  "badgeFavorite": {
+    "message": "Um dos seus agentes"
+  },
+  "matchPoint": {
+    "message": "Match point"
+  },
+  "overtime": {
+    "message": "Prorrogação"
+  },
+  "reading": {
+    "message": "Lendo a live…"
+  },
+  "sidebarPlaying": {
+    "message": "Jogando de {agent}"
+  },
+  "popupTabTitle": {
+    "message": "Nesta aba"
+  },
+  "popupNotTwitch": {
+    "message": "Abra a categoria VALORANT ou uma live de VALORANT na Twitch."
+  },
+  "popupOpenDirectory": {
+    "message": "Ver lives de VALORANT"
+  },
+  "popupPageCount": {
+    "message": "{found} de {total} lives de VALORANT nesta página identificadas"
+  },
+  "popupChannelNone": {
+    "message": "{name} não está em partida agora."
+  },
+  "popupChannelReading": {
+    "message": "Lendo a live de {name}…"
+  },
+  "popupChannelOffline": {
+    "message": "{name} está offline."
+  },
+  "popupSeenAgo_one": {
+    "message": "visto há {count} minuto"
+  },
+  "popupSeenAgo_other": {
+    "message": "visto há {count} minutos"
+  },
+  "popupMyAgents": {
+    "message": "Meus agentes"
+  },
+  "popupMyAgentsHint": {
+    "message": "Escolha os agentes que você joga. Eles ganham uma estrela nos cards e um filtro próprio."
+  },
+  "popupSettings": {
+    "message": "Mostrar"
+  },
+  "settingBadges": {
+    "message": "Agente nos cards"
+  },
+  "settingScores": {
+    "message": "Placar de rodadas"
+  },
+  "settingSidebar": {
+    "message": "Agentes na barra lateral"
+  },
+  "settingQuality": {
+    "message": "Prévias mais nítidas"
+  },
+  "settingQualityHint": {
+    "message": "Lê o placar com mais frequência; baixa cerca do dobro."
+  },
+  "popupPrivacy": {
+    "message": "O Agent Lens analisa no seu PC as prévias públicas das lives de VALORANT que você vê. Não envia nada e guarda suas escolhas neste navegador."
+  },
+  "riotNotice": {
+    "message": "Agent Lens isn't endorsed by Riot Games and doesn't reflect the views or opinions of Riot Games or anyone officially involved in producing or managing Riot Games properties. Riot Games and all associated properties are trademarks or registered trademarks of Riot Games, Inc."
+  }
+}

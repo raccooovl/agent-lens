@@ -1,0 +1,9 @@
+date,channel,what,link,utm_campaign,hours,result,notes
+,reddit-valorant,new-agent day post (clip of the directory filtered to the new agent),https://chromewebstore.google.com/detail/CHROME_ID?utm_source=reddit&utm_medium=post&utm_campaign=new-agent,new-agent,,,modmail the mods first; post only once the listing is live
+,reddit-valorant,"answers to ""who should I watch for <agent>"" threads",https://chromewebstore.google.com/detail/CHROME_ID?utm_source=reddit&utm_medium=comment&utm_campaign=who-to-watch,who-to-watch,,,only fresh threads; say you made it
+,discord-vdc-br,pt-BR announcement in VDC Community (Brazil),https://chromewebstore.google.com/detail/CHROME_ID?utm_source=discord-vdc&utm_medium=post&utm_campaign=br-launch,br-launch,,,ask staff where tools may be shared; pt-BR checked by a native speaker
+,discord-comunidade-br,pt-BR announcement in Comunidade Valorant BR,https://chromewebstore.google.com/detail/CHROME_ID?utm_source=discord-cvbr&utm_medium=post&utm_campaign=br-launch,br-launch,,,ask staff first
+,vlr-forum,one discussion thread in Valorant Discussion,https://chromewebstore.google.com/detail/CHROME_ID?utm_source=vlr&utm_medium=post&utm_campaign=launch,launch,,,frame as a free fan tool asking for feedback; vlr bans for-profit advertising
+,creator-email,notes to mid-size streamers and VALORANT clip or guide channels,https://chromewebstore.google.com/detail/CHROME_ID?utm_source=creator&utm_medium=email&utm_campaign=creators,creators,,,business email from their About page only; one message each
+,bluesky,weekly post from the Agent Lens account,https://chromewebstore.google.com/detail/CHROME_ID?utm_source=bluesky&utm_medium=social&utm_campaign=weekly,weekly,,,account name without Riot names
+,site,install buttons on the website,https://chromewebstore.google.com/detail/CHROME_ID?utm_source=site&utm_medium=landing&utm_campaign=launch,launch,,,set STORE in docs/index.html once live

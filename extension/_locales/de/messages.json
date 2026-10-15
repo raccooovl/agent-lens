@@ -1,0 +1,272 @@
+{
+  "localeCode": {
+    "message": "de"
+  },
+  "extName": {
+    "message": "Agent Lens: VALORANT-Agenten auf Twitch"
+  },
+  "extDescription": {
+    "message": "Sieh, welchen VALORANT-Agenten jeder Twitch-Streamer spielt, und filtere nach Agent oder Rolle. Läuft auf deinem PC."
+  },
+  "actionTitle": {
+    "message": "Agent Lens"
+  },
+  "roleAll": {
+    "message": "Alle"
+  },
+  "roleDuelist": {
+    "message": "Duellanten"
+  },
+  "roleInitiator": {
+    "message": "Initiatoren"
+  },
+  "roleController": {
+    "message": "Controller"
+  },
+  "roleSentinel": {
+    "message": "Wächter"
+  },
+  "rolesLabel": {
+    "message": "Rollen"
+  },
+  "agentsLabel": {
+    "message": "Agenten"
+  },
+  "myAgents": {
+    "message": "Meine Agenten"
+  },
+  "clearFilter": {
+    "message": "Zurücksetzen"
+  },
+  "filterHint": {
+    "message": "Wähle einen Agenten oder eine Rolle, um nur diese Streams zu zeigen."
+  },
+  "statusFound": {
+    "message": "{found} von {total} Streams erkannt"
+  },
+  "statusSkipped_one": {
+    "message": "{count} unter {min} Zuschauern übersprungen"
+  },
+  "statusSkipped_other": {
+    "message": "{count} unter {min} Zuschauern übersprungen"
+  },
+  "settingMinViewers": {
+    "message": "Streams lesen ab"
+  },
+  "settingMinViewersHint": {
+    "message": "Kleinere Streams werden nicht geladen: weniger Daten und Arbeit bei großen Übersichten."
+  },
+  "minViewersShort": {
+    "message": "Min. Zuschauer"
+  },
+  "minViewersAny": {
+    "message": "Alle"
+  },
+  "minViewersAll": {
+    "message": "Alle Streams"
+  },
+  "minViewersCount": {
+    "message": "{count}+ Zuschauer"
+  },
+  "statusReading_one": {
+    "message": "lese noch {count}…"
+  },
+  "statusReading_other": {
+    "message": "lese noch {count}…"
+  },
+  "statusShowing_one": {
+    "message": "{count} Stream angezeigt"
+  },
+  "statusShowing_other": {
+    "message": "{count} Streams angezeigt"
+  },
+  "emptyFilter": {
+    "message": "Gerade spielt das niemand auf dieser Seite. Scrolle für mehr Streams oder setze den Filter zurück."
+  },
+  "loadPausedMin": {
+    "message": "der Rest hat unter {min} Zuschauer, nicht geladen"
+  },
+  "loadPausedCap": {
+    "message": "Laden bei {count} Streams pausiert"
+  },
+  "loadMore": {
+    "message": "Mehr laden"
+  },
+  "loadMoreHint": {
+    "message": "Mit aktivem Filter würde Twitch ständig Streams laden, die dann ausgeblendet werden, und das Zurückgehen zu dieser Seite wird langsam. Lädt {count} weitere."
+  },
+  "emptyFilterMin": {
+    "message": "Gerade spielt das niemand mit {min}+ Zuschauern. Setze den Filter zurück oder senke Min. Zuschauer."
+  },
+  "emptyFilterCap": {
+    "message": "Gerade spielt das niemand in den geladenen Streams. Lade mehr oder setze den Filter zurück."
+  },
+  "myAgentsEmpty": {
+    "message": "Wähle deine Agenten über die Agent-Lens-Schaltfläche in der Symbolleiste."
+  },
+  "badgePlaying": {
+    "message": "{name} spielt {agent}"
+  },
+  "badgeEarlier_one": {
+    "message": "{name} spielte vor {count} Minute {agent} (gerade zwischen Runden oder im Menü)"
+  },
+  "badgeEarlier_other": {
+    "message": "{name} spielte vor {count} Minuten {agent} (gerade zwischen Runden oder im Menü)"
+  },
+  "badgeSpectating": {
+    "message": "{name} spielt {agent}; gerade tot und schaut einem Teammitglied zu ({watching})"
+  },
+  "badgeSpectatingUnknown": {
+    "message": "{name} ist gerade tot und schaut einem Teammitglied zu ({agent}). Der eigene Agent erscheint bei einer späteren Vorschau."
+  },
+  "spectating": {
+    "message": "Zuschauer"
+  },
+  "badgeMaybe": {
+    "message": "{name} spielt wahrscheinlich {agent}. Gesehen auf einem Todes- oder Rundenende-Bildschirm, wo die Leiste auch einem beobachteten Teammitglied gehören kann; eine spätere Vorschau klärt es."
+  },
+  "popupMaybe": {
+    "message": "wahrscheinlich {agent}"
+  },
+  "screenBroadcast": {
+    "message": "Profi-Match"
+  },
+  "sameMatchLabel": {
+    "message": "Gleiches Match"
+  },
+  "sameMatchWith": {
+    "message": "Im selben Match wie {names}"
+  },
+  "relTeam": {
+    "message": "gleiches Team"
+  },
+  "relOpponents": {
+    "message": "gegnerisches Team"
+  },
+  "compTeam": {
+    "message": "Team: {agents}"
+  },
+  "compOpponents": {
+    "message": "Gegen: {agents}"
+  },
+  "sameMatchChip": {
+    "message": "Nur diese Streams zeigen"
+  },
+  "screenDeathmatch": {
+    "message": "Deathmatch"
+  },
+  "modeCompetitive": {
+    "message": "Gewertet"
+  },
+  "modeUnrated": {
+    "message": "Ungewertet"
+  },
+  "modeSwiftplay": {
+    "message": "Swiftplay"
+  },
+  "modeDeathmatch": {
+    "message": "Deathmatch"
+  },
+  "mapModeLabel": {
+    "message": "Karte und Modus"
+  },
+  "screenSelect": {
+    "message": "Agentenwahl"
+  },
+  "screenMenu": {
+    "message": "Im Menü"
+  },
+  "screenDead": {
+    "message": "Tot"
+  },
+  "screenRoundEnd": {
+    "message": "Runde vorbei"
+  },
+  "screenBuy": {
+    "message": "Kaufphase"
+  },
+  "badgeScreen": {
+    "message": "{name}: {screen}. In dieser Vorschau ist kein Agent zu sehen; Agent Lens schaut in einer Minute wieder."
+  },
+  "badgeScreenNow": {
+    "message": "Jetzt: {screen}"
+  },
+  "popupSpectating": {
+    "message": "tot, schaut einem Teammitglied zu"
+  },
+  "badgeScore": {
+    "message": "Runde {round}: {left}–{right}"
+  },
+  "badgeFavorite": {
+    "message": "Einer deiner Agenten"
+  },
+  "matchPoint": {
+    "message": "Matchball"
+  },
+  "overtime": {
+    "message": "Verlängerung"
+  },
+  "reading": {
+    "message": "Stream wird gelesen…"
+  },
+  "sidebarPlaying": {
+    "message": "Spielt {agent}"
+  },
+  "popupTabTitle": {
+    "message": "In diesem Tab"
+  },
+  "popupNotTwitch": {
+    "message": "Öffne die VALORANT-Kategorie oder einen VALORANT-Stream auf Twitch."
+  },
+  "popupOpenDirectory": {
+    "message": "VALORANT-Streams ansehen"
+  },
+  "popupPageCount": {
+    "message": "{found} von {total} VALORANT-Streams auf dieser Seite erkannt"
+  },
+  "popupChannelNone": {
+    "message": "{name} ist gerade in keinem Match."
+  },
+  "popupChannelReading": {
+    "message": "Stream von {name} wird gelesen…"
+  },
+  "popupChannelOffline": {
+    "message": "{name} ist offline."
+  },
+  "popupSeenAgo_one": {
+    "message": "vor {count} Minute gesehen"
+  },
+  "popupSeenAgo_other": {
+    "message": "vor {count} Minuten gesehen"
+  },
+  "popupMyAgents": {
+    "message": "Meine Agenten"
+  },
+  "popupMyAgentsHint": {
+    "message": "Wähle die Agenten, die du spielst. Sie bekommen einen Stern auf Stream-Karten und einen eigenen Filter."
+  },
+  "popupSettings": {
+    "message": "Anzeigen"
+  },
+  "settingBadges": {
+    "message": "Agent auf Stream-Karten"
+  },
+  "settingScores": {
+    "message": "Rundenstand"
+  },
+  "settingSidebar": {
+    "message": "Agenten in der Seitenleiste"
+  },
+  "settingQuality": {
+    "message": "Schärfere Vorschauen"
+  },
+  "settingQualityHint": {
+    "message": "Liest den Stand öfter; lädt etwa doppelt so viel."
+  },
+  "popupPrivacy": {
+    "message": "Agent Lens wertet die öffentlichen Vorschaubilder der VALORANT-Streams, die du siehst, auf deinem PC aus. Es wird nichts gesendet; deine Auswahl bleibt in diesem Browser."
+  },
+  "riotNotice": {
+    "message": "Agent Lens isn't endorsed by Riot Games and doesn't reflect the views or opinions of Riot Games or anyone officially involved in producing or managing Riot Games properties. Riot Games and all associated properties are trademarks or registered trademarks of Riot Games, Inc."
+  }
+}

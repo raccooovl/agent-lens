@@ -1,0 +1,123 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Agent Lens: see the agent on every Twitch stream</title>
+  <meta name="description" content="Agent Lens is a free Chrome and Edge extension that shows which VALORANT agent every Twitch streamer is playing, right on their stream card, and filters streams by agent or role.">
+  <meta property="og:title" content="Agent Lens">
+  <meta property="og:description" content="See which agent every streamer is playing, right on Twitch. Free, no tracking.">
+  <meta property="og:image" content="https://raccooovl.github.io/agent-lens/img/marquee.jpg">
+  <meta property="og:type" content="website">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="icon" href="img/icon-128.png">
+  <link rel="stylesheet" href="site.css">
+  <script type="application/ld+json">
+  {"@context": "https://schema.org", "@type": "SoftwareApplication", "name": "Agent Lens", "applicationCategory": "BrowserApplication",
+   "operatingSystem": "Chrome, Microsoft Edge", "offers": {"@type": "Offer", "price": "0", "priceCurrency": "USD"},
+   "description": "Shows which agent every Twitch streamer is playing, on their stream card, and filters streams by agent or role."}
+  </script>
+</head>
+<body>
+  <header class="top">
+    <div class="wrap">
+      <a class="brand" href="./"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9.5" fill="none" stroke="#ff4655" stroke-width="2.4"/><path d="M12 6.8 17.2 12 12 17.2 6.8 12Z" fill="#ff4655"/></svg>Agent Lens</a>
+      <nav><a href="#features">Features</a><a href="#how" class="hide-small">How it works</a><a href="#faq">FAQ</a><a href="privacy.html" class="hide-small">Privacy</a></nav>
+    </div>
+  </header>
+
+  <main>
+    <div class="hero wrap">
+      <h1>See which agent every streamer is playing</h1>
+      <p class="lead">A free Chrome and Edge extension for Twitch's VALORANT directory. Every stream card shows the agent and the round score, and one click shows only the streams on your agent.</p>
+      <div class="install">
+        <a class="btn" data-store="chrome" href="#">Add to Chrome</a>
+        <a class="btn" data-store="edge" href="#">Get it for Edge</a>
+      </div>
+      <p class="small" id="install-note">Free, no account, no tracking.</p>
+      <img class="shot" src="img/1-agents.jpg" width="1280" height="800" alt="The Twitch VALORANT directory with Agent Lens: each stream card shows the streamer's agent and round score, and a filter bar lists roles and agents with counts.">
+    </div>
+
+    <section id="features">
+      <div class="wrap">
+        <h2>What it adds to Twitch</h2>
+        <p class="intro">Twitch knows a stream's category and title, but not what's happening in the game. Agent Lens reads that from the stream's own preview picture.</p>
+        <div class="grid">
+          <div class="card"><h3>The agent on every card</h3><p>Plus the round score when it's readable, with match point and overtime highlighted.</p></div>
+          <div class="card"><h3>Filter by role or agent</h3><p>Duelists, Initiators, Controllers, Sentinels or any agent, with a live count for each.</p></div>
+          <div class="card"><h3>Your agents first</h3><p>Pick the agents you play. Their streams get a star and a one-click filter.</p></div>
+          <div class="card"><h3>Says why there's no agent</h3><p>Agent select, in menus, dead, round over, buy phase, deathmatch or a pro match.</p></div>
+          <div class="card"><h3>Both teams</h3><p>Hover a card for both teams' agents, the map and the mode.</p></div>
+          <div class="card"><h3>In your language</h3><p>English, Nederlands, Deutsch, Español and Português (Brasil).</p></div>
+        </div>
+      </div>
+    </section>
+
+    <section aria-label="Screenshots">
+      <div class="wrap gallery">
+        <figure><img src="img/2-filter.jpg" width="1280" height="800" loading="lazy" alt="The directory filtered to Duelists: only the four streams on a Duelist stay on the page."></figure>
+        <figure><img src="img/3-teams.jpg" width="1280" height="800" loading="lazy" alt="Hovering a stream card shows the agents on both teams and the round."></figure>
+        <figure><img src="img/4-why.jpg" width="1280" height="800" loading="lazy" alt="Cards without a visible agent say why: agent select, in menus, a pro match or deathmatch."></figure>
+        <figure><img src="img/5-popup.jpg" width="1280" height="800" loading="lazy" alt="On a channel page, the toolbar button shows what the streamer is playing and lets you pick your agents."></figure>
+      </div>
+    </section>
+
+    <section id="how">
+      <div class="wrap">
+        <h2>How it works</h2>
+        <p class="intro">Twitch publishes a fresh preview picture of every live stream. Agent Lens looks at it on your own computer.</p>
+        <ol class="steps">
+          <li>On Twitch's VALORANT pages, Agent Lens downloads the public preview picture of each stream you can see, from Twitch's own image server.</li>
+          <li>It finds the ability icons at the bottom of the screen and matches them against every agent's icons, using a small WebAssembly program bundled with the extension.</li>
+          <li>It shows the agent on the card, then forgets the picture. No account, no servers, no tracking, and it never touches the game or Riot's API.</li>
+        </ol>
+      </div>
+    </section>
+
+    <section id="accuracy">
+      <div class="wrap">
+        <h2>How well it works</h2>
+        <p class="intro">Measured by the developer on 321 live previews from 109 streams, each checked by hand.</p>
+        <div class="stats">
+          <div class="stat"><b>~98%</b><span>right agent when the streamer is alive and the ability bar is visible</span></div>
+          <div class="stat"><b>0</b><span>wrong agents named in the test set</span></div>
+          <div class="stat"><b>~5 min</b><span>how often Twitch refreshes a preview picture</span></div>
+        </div>
+        <p>When it isn't sure, it says so instead of guessing. Seen a wrong agent? <a href="https://github.com/raccooovl/agent-lens/issues/new?template=wrong-agent.yml">Report it</a> and once confirmed it becomes part of the test set.</p>
+      </div>
+    </section>
+
+    <section id="faq">
+      <div class="wrap">
+        <h2>Questions</h2>
+        <details><summary>Is it free?</summary><p>Yes, and it stays free. It's a fan project with no ads, no paid features and no donations.</p></details>
+        <details><summary>Does it touch the game or my Riot account?</summary><p>No. It's a browser extension that only works on twitch.tv. It never talks to the game, the Riot client or Riot's API.</p></details>
+        <details><summary>What does it download, and what does it keep?</summary><p>Only the public preview pictures Twitch already shows for live streams. It keeps your settings and chosen agents in your browser, and forgets what it read when you close the browser. Details are in the <a href="privacy.html">privacy policy</a>.</p></details>
+        <details><summary>Why does a card sometimes show no agent?</summary><p>The preview may show a menu, agent select, a death screen or an overlay over the abilities. The card then says what it sees, and the agent appears with a later preview.</p></details>
+        <details><summary>What about new agents?</summary><p>New agents are added in an update once they're released and their icons are available.</p></details>
+        <details><summary>Which browsers?</summary><p>Chrome and Microsoft Edge on desktop.</p></details>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="wrap">
+      <p>Agent Lens was created under Riot Games' "Legal Jibber Jabber" policy using assets owned by Riot Games. Riot Games does not endorse or sponsor this project. Riot Games and all associated properties are trademarks or registered trademarks of Riot Games, Inc.</p>
+      <p>Not affiliated with Twitch. MIT licensed. <a href="privacy.html">Privacy</a> · <a href="https://github.com/raccooovl/agent-lens">Source</a> · <a href="https://github.com/raccooovl/agent-lens/issues">Support</a></p>
+    </div>
+  </footer>
+
+  <script>
+    // Store links: fill these in once the listings are live. Until then the buttons say "Coming soon".
+    // Every link carries utm_source=site so the store dashboards show visits from this page.
+    const STORE = { chrome: '', edge: '' };
+    const anyLive = Object.values(STORE).some(Boolean);
+    for (const button of document.querySelectorAll('[data-store]')) {
+      const url = STORE[button.dataset.store];
+      if (url) button.href = url + (url.includes('?') ? '&' : '?') + 'utm_source=site&utm_medium=landing&utm_campaign=launch';
+      else { button.setAttribute('aria-disabled', 'true'); button.removeAttribute('href'); button.textContent += ' (coming soon)'; }
+    }
+    if (!anyLive) document.getElementById('install-note').textContent = 'Coming soon to the Chrome Web Store and Edge Add-ons. Free, no account, no tracking.';
+  </script>
+</body>
+</html>

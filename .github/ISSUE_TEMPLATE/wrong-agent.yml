@@ -1,0 +1,48 @@
+name: Wrong agent
+description: Agent Lens showed the wrong agent, or no agent when one was clearly visible.
+title: "Wrong agent: "
+labels: ["wrong agent"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks! Each confirmed miss is added to the test set, so a fix can be checked against it.
+        Nothing is sent automatically: only what you write here.
+  - type: input
+    id: channel
+    attributes:
+      label: Twitch channel
+      placeholder: e.g. twitch.tv/somestreamer
+    validations:
+      required: true
+  - type: input
+    id: shown
+    attributes:
+      label: What Agent Lens showed
+      placeholder: e.g. "Jett 5–4", "Spectating", or no badge
+    validations:
+      required: true
+  - type: input
+    id: actual
+    attributes:
+      label: What the streamer was actually playing
+      placeholder: e.g. Clove
+    validations:
+      required: true
+  - type: input
+    id: when
+    attributes:
+      label: When (date, time and time zone)
+      description: Twitch replaces preview pictures every few minutes, so the time helps find the same moment.
+      placeholder: e.g. 15 Oct 2026, 21:40 CEST
+  - type: textarea
+    id: screenshot
+    attributes:
+      label: Screenshot
+      description: Paste a screenshot of the card or the stream if you have one.
+  - type: input
+    id: version
+    attributes:
+      label: Agent Lens version
+      description: Shown at the top right of the toolbar popup.
+      placeholder: e.g. v0.3.4
